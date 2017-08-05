@@ -1,0 +1,11 @@
+.header .nav{
+  vertical-align: middle;
+}
+
+.header ul{
+    list-style: none;
+}
+
+.header li{
+    display: inline-block;
+}
