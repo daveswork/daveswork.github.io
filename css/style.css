@@ -1,18 +1,25 @@
 html, body{
   margin: 0;
   padding: 0;
-  background-color: black;
   text-align:center;
+  color: white;
+}
+
+body {
+    background: url("../images/vadim-sherbakov-127.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .header{
   vertical-align: middle;
+  margin-bottom: 10px;
+  background:rgba(0,0,0,.5);
 }
 
 .header h1{
   margin: 0 0 15px;
   display: inline-block;
-  color: white;
 }
 
 .header ul{
@@ -22,27 +29,31 @@ html, body{
 
 .header li{
     display: inline-block;
-    margin: 10px 0 0 0;
+    margin: 5px 0 0 0;
 }
 
 .header li a{
-  color: white;
   text-decoration: none;
+  color: white;
 }
 
 .header li a:hover, a:active{
   color: black;
-  background-color: white;
 }
 
 .main {
 }
+
+.main .container .subheading h1{
+    margin: 60px;
+    padding-bottom: 20px;
+}
+
 
 .main h2{
   margin-bottom: 15px;
 }
 
 .footer {
-  background-color: black;
   text-align: center;
 }
