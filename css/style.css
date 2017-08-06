@@ -1,37 +1,48 @@
 html, body{
   margin: 0;
   padding: 0;
+  background-color: black;
+  text-align:center;
 }
 
 .header{
-  background-color: white;
   vertical-align: middle;
 }
 
 .header h1{
   margin: 0 0 15px;
+  display: inline-block;
+  color: white;
 }
 
 .header ul{
     list-style: none;
+    display: inline-block;
 }
 
 .header li{
-    display: inline;
-    text-align: center;
+    display: inline-block;
     margin: 10px 0 0 0;
 }
 
 .header li a{
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
-.header li a:hover{
-  color: white;
-  background-color: black;
+.header li a:hover, a:active{
+  color: black;
+  background-color: white;
 }
 
-.header nav{
+.main {
+}
+
+.main h2{
+  margin-bottom: 15px;
+}
+
+.footer {
   background-color: black;
+  text-align: left;
 }
