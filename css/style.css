@@ -37,8 +37,12 @@ body {
   color: white;
 }
 
-.header li a:hover, a:active{
+.header li a:focus{
   color: black;
+}
+
+.header li a:hover{
+    color: black;
 }
 
 .main {
