@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Starting my career in software development</title>
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet"/>
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery-ui.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 <!-- Background image by Vadim Sherbakov on Unsplash -->
@@ -19,12 +17,11 @@
                 <h1>Dave Jodhan</h1>
             </div>
               <ul class="nav nav-pills">
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">CV</a></li>
-                  <li><a href="https://daveswork.github.io/blog/">Blog</a></li>
-                  <li><a href="#">Image Credits</a> </li>
+                  <li><a href="#" id="about">About</a></li>
+                  <li><a href="#" id="cv">CV</a></li>
+                  <li><a target="_blank" href="https://daveswork.github.io/blog/" id="blog">Blog</a></li>
+                  <li><a href="#" id="image-credits">Image Credits</a> </li>
               </ul>
-
         </div>
     </div>
 </div>
@@ -53,6 +50,20 @@
 
     </div>
 </div>
+<div class="content">
+  <div class="item about">
+    <p>This is about</p>
+  </div>
+  <div class="item cv">
+    <p>This is CV</p>
+  </div>
+  <div class="item blog">
+    <p>This is blog</p>
+  </div>
+  <div class="item image-credits">
+    <p>This is image credits</p>
+  </div>
+</div>
 <div class="footer">
     <div class="container">
         <a href="https://www.linkedin.com/in/davejodhan" target="_blank"><img src="images/In-2C-28px-R.png" alt="Linked-In"/></a>
@@ -61,4 +72,7 @@
 </div>
 
 </body>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </html>

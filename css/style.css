@@ -3,6 +3,7 @@ html, body{
   padding: 0;
   text-align:center;
   color: white;
+  font-family: 'Monda', sans-serif;
 }
 
 body {
@@ -37,8 +38,12 @@ body {
   color: white;
 }
 
-.header li a:hover, a:active{
+.header li a:hover{
   color: black;
+}
+
+.header li a:focus{
+  color:black;
 }
 
 .main {
@@ -48,7 +53,6 @@ body {
     margin: 60px;
     padding-bottom: 20px;
 }
-
 
 .main h2{
   margin-bottom: 15px;
