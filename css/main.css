@@ -1,0 +1,48 @@
+
+html,body{
+  margin: 30px auto;
+  padding: 0;
+  height: 100%;
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container{
+  margin: auto;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.pageHeader{
+  vertical-align: middle;
+  padding-top: 30px;
+}
+
+.leftNav{
+  float: left;
+  text-align: left;
+}
+
+.rightNav{
+  float: right;
+  text-align: right;
+}
+
+.main{
+  clear: both;
+  padding-top: 50px;
+  text-align: left;
+}
+
+.content{
+  padding-left: 20px;
+}
+
+.hide{
+  display: none;
+}
